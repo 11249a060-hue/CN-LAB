@@ -1,6 +1,4 @@
-
 import socket
-
 def echo_client():
 
     client_socket = socket.socket(
@@ -24,3 +22,10 @@ def echo_client():
 
 if __name__ == '__main__':
     echo_client()
+    
+OUTPUT:-
+Enter a message: I am cse student
+Echoed from server: I am cse student
+Enter a message: scsvmv university
+Echoed from server: scsvmv university
+Enter a message: 
