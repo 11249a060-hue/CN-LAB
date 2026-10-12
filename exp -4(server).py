@@ -1,4 +1,3 @@
-
 import socket
 import threading
 
@@ -19,6 +18,7 @@ def handle_client(client_socket, client_address):
             for client in clients:
                 if client != client_socket:
                     client.sendall(message.encode())
+                    
 
         except Exception as e:
             print(f"Error with {client_address}: {e}")
@@ -60,3 +60,9 @@ def chat_server():
 
 if __name__ == '__main__':
     chat_server()
+
+OUTPUT:-
+Server listening on port 55555...
+New connection from ('127.0.0.1', 55669)
+Received from ('127.0.0.1', 55669): hi
+Received from ('127.0.0.1', 55669): I am from 3rd year cse
