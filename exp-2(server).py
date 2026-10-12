@@ -29,3 +29,6 @@ while True:
 
     conn.sendall(http_response.encode())
     conn.close()
+
+OUTPUT:-
+HTTP Server running on http://localhost:8080 ...   
