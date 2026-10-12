@@ -35,3 +35,9 @@ def file_transfer_server():
 
 if __name__ == '__main__':
     file_transfer_server()
+
+OUTPUT:-
+Server listening on port 12345...
+Connected by ('127.0.0.1', 64744)
+Receiving file: file
+File received and saved as received_file
