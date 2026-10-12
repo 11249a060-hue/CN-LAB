@@ -28,3 +28,11 @@ print("--- Received HTTP Response ---")
 print(response.decode())
 
 client.close()
+
+OUTPUT:-  
+--- Received HTTP Response ---
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: close
+
+<html><body><h1>Welcome to Computer Networks Lab!</h1></body></html>
