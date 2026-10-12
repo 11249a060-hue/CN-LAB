@@ -31,3 +31,9 @@ def echo_server():
 
 if __name__ == '__main__':
     echo_server()
+
+OUTPUT:-
+Server listening on port 65432...
+Connected by ('127.0.0.1', 54465)
+Received: I am cse student
+Received: scsvmv university
