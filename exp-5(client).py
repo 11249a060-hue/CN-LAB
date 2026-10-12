@@ -28,6 +28,11 @@ def file_transfer_client():
     except FileNotFoundError:
         print(f"File {filename} not found.")
 
+OUTPUT:-
+Enter the filename to send: file
+File file not found.
+
+
     client_socket.close()
 
 
