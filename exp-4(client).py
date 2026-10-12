@@ -1,4 +1,3 @@
-
 import socket
 import threading
 
@@ -58,3 +57,8 @@ def chat_client():
 
 if __name__ == '__main__':
     chat_client()
+
+OUTPUT:-
+Connected to chat server.
+hi
+I am from 3rd year cse
