@@ -56,3 +56,14 @@ if __name__ == "__main__":
 
     simulator.rarp_request("00:0a:95:9d:68:16")
     simulator.rarp_request("00:0a:95:9d:68:99")
+
+OUTPUT:-
+ARP Request: Who has 192.168.1.1? Tell me your MAC address.
+ARP Reply: 192.168.1.1 is at 00:0a:95:9d:68:16.
+ARP Request: Who has 192.168.1.100? Tell me your MAC address.
+ARP Reply: 192.168.1.100 is not found.
+RARP Request: Who has MAC address 00:0a:95:9d:68:16? Tell me your IP address.
+RARP Reply: 00:0a:95:9d:68:16 is associated with IP 192.168.1.1.
+RARP Request: Who has MAC address 00:0a:95:9d:68:99? Tell me your IP address.
+RARP Reply: 00:0a:95:9d:68:99 is not found.
+
